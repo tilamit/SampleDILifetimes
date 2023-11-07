@@ -1,0 +1,25 @@
+﻿@model Student
+@inject SampleDILifetimes.Interface.IStudent studentRepository
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+<form asp-controller="student" asp-action="create" method="post">
+    <h2>Sample With AddScoped<></h2>
+    <div>
+        <label>Student Name</label>
+        <div>
+            <input asp-for="StudentName">
+        </div>
+    </div>
+
+    <div style="margin-top:10px;">
+        <button type="submit">Create</button>
+    </div>
+
+    <div style="margin-top:10px;">
+        Total Students Count = @studentRepository.GetAllStudents().Count().ToString()
+    </div>
+</form>
+
