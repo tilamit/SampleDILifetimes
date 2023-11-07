@@ -1,6 +1,6 @@
 ﻿# Project Objective
 
-This project was built with .NET Core 5 and the purpose is to see the differences between each service lifetime of dependency injection.
+This project was built with .NET Core 3.1 and the purpose is to see the differences between each service lifetime of dependency injection.
 
 ## AddSingleton<>
 
