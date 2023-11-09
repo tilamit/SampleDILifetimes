@@ -14,4 +14,4 @@ New instance per http request.
 
 One instance within same http request.
 
-To know more about the services, please visit this link - [Click Here](https://t.ly/fjefi)
+To know more about the services, please visit this link - [Click Here](https://t.ly/9VXsH)
